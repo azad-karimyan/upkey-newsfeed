@@ -27,66 +27,88 @@
     ],
     "newsfeed": [
         {
-            "id": "1",
+            "id": 1,
             "type": "add-friend",
-            "first-person": "John Smith",
-            "second-person": "Oliver Garcia"
+            "person": "John Smith",
+            "personId": 1,
+            "secondPerson": "Oliver Garcia",
+            "secondPersonId": 5
         },{
-            "id": "2",
+            "id": 2,
             "type": "post-like",
-            "first-person": "John Smith",
-            "second-person": "Oliver Garcia"
+            "person": "John Smith",
+            "person-1": 1,
+            "secondPerson": "Oliver Garcia",
+            "secondPersonId": 5
         },{
-            "id": "3",
+            "id": 3,
             "type": "add-friend",
-            "first-person": "Mia Davis",
-            "second-person": "Liam Johnson"
+            "person": "Mia Davis",
+            "personId": 2,
+            "secondPerson": "Liam Johnson",
+            "secondPersonId": 3
         },{
-            "id": "4",
+            "id": 4,
             "type": "post-like",
-            "first-person": "Benjamin Davis",
-            "second-person": "Oliver Garcia"
+            "person": "Benjamin Davis",
+            "personId": 4,
+            "secondPerson": "Oliver Garcia",
+            "secondPersonId": 5
         },{
-            "id": "5",
+            "id": 5,
             "type": "photo-upload",
-            "person": "Benjamin Davis"
+            "person": "Benjamin Davis",
+            "personId": 4
         },{
-            "id": "6",
+            "id": 6,
             "type": "add-friend",
-            "first-person": "John Smith",
-            "second-person": "Mia Davis"
+            "person": "John Smith",
+            "personId": 1,
+            "secondPerson": "Mia Davis",
+            "secondPersonId": 2
         },{
-            "id": "7",
+            "id": 7,
             "type": "add-friend",
-            "first-person": "Benjamin Davis",
-            "second-person": "Oliver Garcia"
+            "person": "Benjamin Davis",
+            "personId": 4,
+            "secondPerson": "Oliver Garcia",
+            "secondPersonId": 5
         },{
-            "id": "8",
+            "id": 8,
             "type": "photo-upload",
-            "person": "Benjamin Davis"
+            "person": "Benjamin Davis",
+            "personId": 4
         },{
-            "id": "9",
+            "id": 9,
             "type": "post-like",
-            "first-person": "Mia Davis",
-            "second-person": "Liam Johnson"
+            "person": "Mia Davis",
+            "personId": 2,
+            "secondPerson": "Liam Johnson",
+            "secondPersonId": 3
         },{
-            "id": "10",
+            "id": 10,
             "type": "photo-upload",
-            "person": "Benjamin Davis"
+            "person": "Benjamin Davis",
+            "personId": 4
         },{
-            "id": "11",
+            "id": 11,
             "type": "add-friend",
-            "first-person": "Isabella Brown",
-            "second-person": "Oliver Garcia"
+            "person": "Isabella Brown",
+            "personId": 6,
+            "secondPerson": "Oliver Garcia",
+            "secondPersonId": 5
         },{
-            "id": "12",
+            "id": 12,
             "type": "photo-upload",
-            "person": "Oliver Garcia"
+            "person": "Oliver Garcia",
+            "personId": 5
         },{
-            "id": "13",
+            "id": 13,
             "type": "add-friend",
-            "first-person": "Benjamin Davis",
-            "second-person": "Oliver Garcia"
+            "person": "Benjamin Davis",
+            "personId": 4,
+            "secondPerson": "Oliver Garcia",
+            "secondPersonId": 5
         }
     ]
   }
