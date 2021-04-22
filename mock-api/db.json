@@ -1,0 +1,92 @@
+{
+    "friends": [
+      {
+        "id": 1,
+        "name": "John Smith"
+      },
+      {
+        "id": 2,
+        "name": "Mia Davis"
+      },
+      {
+        "id": 3,
+        "name": "Liam Johnson"
+      },
+      {
+        "id": 4,
+        "name": "Benjamin Davis"
+      },
+      {
+        "id": 5,
+        "name": "Oliver Garcia"
+      },
+      {
+        "id": 6,
+        "name": "Isabella Brown"
+      }
+    ],
+    "newsfeed": [
+        {
+            "id": "1",
+            "type": "add-friend",
+            "first-person": "John Smith",
+            "second-person": "Oliver Garcia"
+        },{
+            "id": "2",
+            "type": "post-like",
+            "first-person": "John Smith",
+            "second-person": "Oliver Garcia"
+        },{
+            "id": "3",
+            "type": "add-friend",
+            "first-person": "Mia Davis",
+            "second-person": "Liam Johnson"
+        },{
+            "id": "4",
+            "type": "post-like",
+            "first-person": "Benjamin Davis",
+            "second-person": "Oliver Garcia"
+        },{
+            "id": "5",
+            "type": "photo-upload",
+            "person": "Benjamin Davis"
+        },{
+            "id": "6",
+            "type": "add-friend",
+            "first-person": "John Smith",
+            "second-person": "Mia Davis"
+        },{
+            "id": "7",
+            "type": "add-friend",
+            "first-person": "Benjamin Davis",
+            "second-person": "Oliver Garcia"
+        },{
+            "id": "8",
+            "type": "photo-upload",
+            "person": "Benjamin Davis"
+        },{
+            "id": "9",
+            "type": "post-like",
+            "first-person": "Mia Davis",
+            "second-person": "Liam Johnson"
+        },{
+            "id": "10",
+            "type": "photo-upload",
+            "person": "Benjamin Davis"
+        },{
+            "id": "11",
+            "type": "add-friend",
+            "first-person": "Isabella Brown",
+            "second-person": "Oliver Garcia"
+        },{
+            "id": "12",
+            "type": "photo-upload",
+            "person": "Oliver Garcia"
+        },{
+            "id": "13",
+            "type": "add-friend",
+            "first-person": "Benjamin Davis",
+            "second-person": "Oliver Garcia"
+        }
+    ]
+  }
