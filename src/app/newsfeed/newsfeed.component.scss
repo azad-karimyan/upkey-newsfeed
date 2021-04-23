@@ -1,0 +1,57 @@
+@import '/src/assets/styles/breack-points.scss';
+
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    min-height: 60px;
+    height: 5vh;
+    background-color: #3f51b5;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 64px;
+}
+
+.sidebar-button {
+    font-size: 36px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+}
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    border-right: 1px solid #dbdbdb;
+    transition: width 0.5s ease-out;
+}
+
+.sidebar.hide {
+    width: 0px;
+}
+
+.content {
+    height: 100%;
+    flex: 1;
+}
+
+@media(max-width: $largeScreen) {
+    
+}
+@media(max-width: $smallScreen) {
+    
+}
+@media(max-width: $tablet) {
+
+}
+@media(max-width: $mobile) {
+
+}
