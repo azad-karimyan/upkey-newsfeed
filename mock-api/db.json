@@ -1,114 +1,139 @@
 {
-    "friends": [
-      {
-        "id": 1,
-        "name": "John Smith"
-      },
-      {
-        "id": 2,
-        "name": "Mia Davis"
-      },
-      {
-        "id": 3,
-        "name": "Liam Johnson"
-      },
-      {
-        "id": 4,
-        "name": "Benjamin Davis"
-      },
-      {
-        "id": 5,
-        "name": "Oliver Garcia"
-      },
-      {
-        "id": 6,
-        "name": "Isabella Brown"
-      }
-    ],
-    "newsfeed": [
-        {
-            "id": 1,
-            "type": "add-friend",
-            "person": "John Smith",
-            "personId": 1,
-            "secondPerson": "Oliver Garcia",
-            "secondPersonId": 5
-        },{
-            "id": 2,
-            "type": "post-like",
-            "person": "John Smith",
-            "person-1": 1,
-            "secondPerson": "Oliver Garcia",
-            "secondPersonId": 5
-        },{
-            "id": 3,
-            "type": "add-friend",
-            "person": "Mia Davis",
-            "personId": 2,
-            "secondPerson": "Liam Johnson",
-            "secondPersonId": 3
-        },{
-            "id": 4,
-            "type": "post-like",
-            "person": "Benjamin Davis",
-            "personId": 4,
-            "secondPerson": "Oliver Garcia",
-            "secondPersonId": 5
-        },{
-            "id": 5,
-            "type": "photo-upload",
-            "person": "Benjamin Davis",
-            "personId": 4
-        },{
-            "id": 6,
-            "type": "add-friend",
-            "person": "John Smith",
-            "personId": 1,
-            "secondPerson": "Mia Davis",
-            "secondPersonId": 2
-        },{
-            "id": 7,
-            "type": "add-friend",
-            "person": "Benjamin Davis",
-            "personId": 4,
-            "secondPerson": "Oliver Garcia",
-            "secondPersonId": 5
-        },{
-            "id": 8,
-            "type": "photo-upload",
-            "person": "Benjamin Davis",
-            "personId": 4
-        },{
-            "id": 9,
-            "type": "post-like",
-            "person": "Mia Davis",
-            "personId": 2,
-            "secondPerson": "Liam Johnson",
-            "secondPersonId": 3
-        },{
-            "id": 10,
-            "type": "photo-upload",
-            "person": "Benjamin Davis",
-            "personId": 4
-        },{
-            "id": 11,
-            "type": "add-friend",
-            "person": "Isabella Brown",
-            "personId": 6,
-            "secondPerson": "Oliver Garcia",
-            "secondPersonId": 5
-        },{
-            "id": 12,
-            "type": "photo-upload",
-            "person": "Oliver Garcia",
-            "personId": 5
-        },{
-            "id": 13,
-            "type": "add-friend",
-            "person": "Benjamin Davis",
-            "personId": 4,
-            "secondPerson": "Oliver Garcia",
-            "secondPersonId": 5
-        }
-    ]
-  }
+  "friends": [
+    {
+      "id": 1,
+      "name": "John Smith"
+    },
+    {
+      "id": 2,
+      "name": "Mia Davis"
+    },
+    {
+      "id": 3,
+      "name": "Liam Johnson"
+    },
+    {
+      "id": 4,
+      "name": "Benjamin Davis"
+    },
+    {
+      "id": 5,
+      "name": "Oliver Garcia"
+    },
+    {
+      "id": 6,
+      "name": "Isabella Brown"
+    }
+  ],
+  "newsfeed": [
+    {
+      "id": 1,
+      "type": "add-friend",
+      "person": "John Smith",
+      "personId": 1,
+      "secondPerson": "Oliver Garcia",
+      "secondPersonId": 5,
+      "isFavourite": true
+    },
+    {
+      "id": 2,
+      "type": "post-like",
+      "person": "John Smith",
+      "person-1": 1,
+      "secondPerson": "Oliver Garcia",
+      "secondPersonId": 5,
+      "isFavourite": true
+    },
+    {
+      "id": 3,
+      "type": "add-friend",
+      "person": "Mia Davis",
+      "personId": 2,
+      "secondPerson": "Liam Johnson",
+      "secondPersonId": 3,
+      "isFavourite": true
+    },
+    {
+      "id": 4,
+      "type": "post-like",
+      "person": "Benjamin Davis",
+      "personId": 4,
+      "secondPerson": "Oliver Garcia",
+      "secondPersonId": 5,
+      "isFavourite": true
+    },
+    {
+      "id": 5,
+      "type": "photo-upload",
+      "person": "Benjamin Davis",
+      "personId": 4,
+      "isFavourite": true
+    },
+    {
+      "id": 6,
+      "type": "add-friend",
+      "person": "John Smith",
+      "personId": 1,
+      "secondPerson": "Mia Davis",
+      "secondPersonId": 2,
+      "isFavourite": true
+    },
+    {
+      "id": 7,
+      "type": "add-friend",
+      "person": "Benjamin Davis",
+      "personId": 4,
+      "secondPerson": "Oliver Garcia",
+      "secondPersonId": 5,
+      "isFavourite": false
+    },
+    {
+      "id": 8,
+      "type": "photo-upload",
+      "person": "Benjamin Davis",
+      "personId": 4,
+      "isFavourite": false
+    },
+    {
+      "id": 9,
+      "type": "post-like",
+      "person": "Mia Davis",
+      "personId": 2,
+      "secondPerson": "Liam Johnson",
+      "secondPersonId": 3,
+      "isFavourite": false
+    },
+    {
+      "id": 10,
+      "type": "photo-upload",
+      "person": "Benjamin Davis",
+      "personId": 4,
+      "isFavourite": false
+    },
+    {
+      "id": 11,
+      "type": "add-friend",
+      "person": "Isabella Brown",
+      "personId": 6,
+      "secondPerson": "Oliver Garcia",
+      "secondPersonId": 5,
+      "isFavourite": true
+    },
+    {
+      "id": 12,
+      "type": "photo-upload",
+      "person": "Oliver Garcia",
+      "personId": 5,
+      "isFavourite": false
+    },
+    {
+      "id": 13,
+      "type": "add-friend",
+      "person": "Benjamin Davis",
+      "personId": 4,
+      "secondPerson": "Oliver Garcia",
+      "secondPersonId": 5,
+      "isFavourite": false
+    }
+  ]
+}

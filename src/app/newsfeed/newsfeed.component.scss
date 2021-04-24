@@ -23,6 +23,7 @@
 }
 
 .container {
+    height: 95vh;
     flex: 1;
     display: flex;
 }
@@ -32,6 +33,7 @@
     width: 300px;
     border-right: 1px solid #dbdbdb;
     transition: width 0.5s ease-out;
+    overflow-y: auto;
 }
 
 .sidebar.hide {
@@ -40,18 +42,30 @@
 
 .content {
     height: 100%;
+    overflow-y: auto;
     flex: 1;
 }
 
-@media(max-width: $largeScreen) {
-    
-}
-@media(max-width: $smallScreen) {
-    
-}
 @media(max-width: $tablet) {
+    .container {
+        height: 95vh;
+        position: relative;
+    }
 
-}
-@media(max-width: $mobile) {
-
+    .sidebar {
+        height: 100%;
+        width: 300px;
+        border-right: 1px solid #dbdbdb;
+        transition: width 0.5s ease-out;
+        overflow-y: auto;
+        position: absolute;
+        background-color: white;
+        top: 0;
+        left: 0;
+    }
+    
+    .content {
+        height: 100%;
+        overflow-y: auto;
+    }
 }

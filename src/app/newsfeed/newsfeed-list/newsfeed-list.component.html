@@ -1,0 +1,21 @@
+<div class="card" *ngFor="let  newsfeed of newsfeedState.showingList">
+    <span [ngSwitch]="newsfeed.type">
+        <span *ngSwitchCase="newsfeedType.AddFriend">
+            {{ newsfeed.person }} has added {{ newsfeed.secondPerson }} as friend.
+        </span>
+        <span *ngSwitchCase="newsfeedType.Like">
+            {{ newsfeed.person }} has liked {{ newsfeed.secondPerson }} post.
+        </span>
+        <span *ngSwitchCase="newsfeedType.PhotoUpload">
+            {{ newsfeed.person }} has uploaded a new photo.
+        </span>
+    </span>
+    <span [ngSwitch]="newsfeed.isFavourite" (click)="favoriteNewsfeed(newsfeed)">
+        <span class="material-icons heart" *ngSwitchCase="true">
+            favorite
+        </span>
+        <span class="material-icons heart" *ngSwitchCase="false">
+            favorite_border
+        </span>
+    </span>
+</div>

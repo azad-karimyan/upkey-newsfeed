@@ -1,0 +1,16 @@
+<div class="card all"
+[ngClass]="{selected: friendsState.selectedFriend === null}"
+(click)="selectFriend(null)">
+    <span class="material-icons fs-48">
+        groups
+    </span>
+</div>
+<div class="card friend"
+    *ngFor="let friend of friendsState.list"
+    (click)="selectFriend(friend)"
+    [ngClass]="{selected: (friendsState.selectedFriend?.id === friend.id)}">
+    <span class="material-icons fs-32">
+        person
+    </span>
+    {{ friend.name }}
+</div>

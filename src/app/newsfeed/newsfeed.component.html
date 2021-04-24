@@ -1,13 +1,16 @@
 <div class="header">
-    <span class="material-icons sidebar-button" (click)="toggleSidebar()">
+    <span class="material-icons sidebar-button" (click)="showSidebar = !showSidebar">
         menu
     </span>
 </div>
 <div class="container">
     <div class="sidebar" [ngClass]="{hide: !showSidebar}">
-
+        <app-friends-list [friendsState]="(newsfeedState$ | async)!.friends"
+        (selectFriendEmitter)="selectFriend($event)"></app-friends-list>
     </div>
     <div class="content">
-
+        <app-newsfeed-list
+        [newsfeedState]="(newsfeedState$ | async)!.newsfeed"
+        (favoriteNewsfeedEmitter)="updateNewsfeed($event)"></app-newsfeed-list>
     </div>
 </div>

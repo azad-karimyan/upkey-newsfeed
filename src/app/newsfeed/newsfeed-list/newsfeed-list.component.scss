@@ -1,0 +1,21 @@
+:host {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    border-bottom: 1px solid #dbdbdb;
+    min-width: 360px;
+}
+.material-icons {
+    margin-left:  11px;
+    cursor: pointer;
+}
+
+.heart {
+    color: #ef3453;
+}

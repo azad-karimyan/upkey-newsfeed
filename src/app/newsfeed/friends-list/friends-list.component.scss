@@ -1,0 +1,16 @@
+.card {
+    min-height: 50px;
+    margin: 2px 4px;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.card.all {
+    justify-content: center;
+}
+.card.selected {
+    background-color: #eaeaea;
+}
